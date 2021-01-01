@@ -2,28 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>F.M.T.T.M</title>
-    <link href="bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="templatemo-style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
+
+    <title>Fly me to the moon</title>
+
+
+    <link href="vendorF/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+      <link rel="stylesheet" href="assetsF/css/fontawesome.css" />
+
+      <link rel="stylesheet" href="assetsF/css/owl.css" />
+      <link rel="stylesheet" href="assetsF/css/lightbox.css" />
+    <!--      a modifier   -->
+     <link rel="stylesheet" href="assetsF/css/votePageCSS.css" />
 </head>
 
 <body>
   <script>
    function verif() {
         
-    if (document.getElementById("NumAllée").value > "10" ) {
+    if (document.getElementById("NumAllée").value!="" ) {
       alert("Tapez un NumAllée valable pour avoir une réponse.");
       document.getElementById("NumAllée").focus();
       return false;
     }
-    if (document.getElementById("NumRang").value>"10") {
+    if (document.getElementById("NumRang").value!="") {
       alert("Pensez à taper un RANG valable !");
       document.getElementById("NumRang").focus();
       return false;
 
     }
-        if( (document.getElementById("class").value!="econnomy")|| (document.getElementById("class").value!="first")) {
+        if( (document.getElementById("class").value!="") {
       alert("Pensez à taper une class !");
       document.getElementById("class").focus();
       return false;
@@ -34,51 +50,7 @@
   }</script>
 <div id="page-wraper">
 
-    <!-- Sidebar Menu --><div class="responsive-nav">
-    <i class="fa fa-bars" id="menu-toggle"></i>
-    <div id="menu" class="menu">
-        <i class="fa fa-times" id="menu-close"></i>
-        <div class="container">
-            <div class="image">
-                <a href="#"><img src="assets/images/logo-2.png"  alt="" /></a>
-            </div>
-            <div class="author-content">
-                <h4>Fly Me To The Moon</h4>
-                <span>agence de voyage spatial</span>
-            </div>
-
-            <nav class="main-nav" role="navigation">
-                <ul class="main-menu">
-                    <li><a href="connexion.html">Connexion</a></li>
-                    <li><a href="billet.html">Billet </a></li>
-                    <li><a href="produit.html">Produit </a></li>
-                    <li> <a href="Vols.html" > Vols </a> </li>
-                    <li><a href="coaching.html">Coaching</a></li>
-            o        <li><a href="historique.html">Historique</a></li>
-
-                </ul>
-            </nav>
-            <div class="social-network">
-                <ul class="soial-icons">
-                    <li>
-                        <a href="https://facebook.com/ahmed1990909/"
-                        ><img src="assets/images/facebook.png"> </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=yyzsOKUSAMg&ab_channel=NightcoreMtb"><img src="assets/images/youtuve.png"></a>
-                    </li>
-
-                </ul>
-            </div>
-            <audio class="audio2" src="assets/musique/fly-me-to-the-moon-lyrics.mp3" controls></audio>
-
-            <div class="copyright-text">
-                <p>2A26 le Groupe de l'espace </p>
-            </div>
-
-        </div>
-    </div>
-</div> <!-- Sidebar Menu -->
+   
 
     <section class="section about-me" data-section="section1">
         <div class="container">

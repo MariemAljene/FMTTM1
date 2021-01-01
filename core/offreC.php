@@ -49,7 +49,7 @@ function ajouteroffre($offre)
     function afficheroffre7()
     {
         $db = config::getConnexion();
-            $sql="SELECT *FROM offre order by code  DESC LIMIT 0,12 ";
+            $sql="SELECT *FROM offre order by class   ";
 
         try{
         $req=$db->prepare($sql);

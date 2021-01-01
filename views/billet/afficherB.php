@@ -154,6 +154,10 @@ function sortnumber(n) {
                 <div class="line-dec"></div>
 
                 <br><br><br>
+                 <div class="search-element mr-2">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search"  name="Search" id="Search" >
+                
+                            </div>
     <h1>liste des billets </h1> 
       <ul>
                 <table class="table table-bordered mb-0 text-nowrap" id="myTable">

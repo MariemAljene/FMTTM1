@@ -1,4 +1,4 @@
-<?php
+ <?php
 include "config.php";
 /**
  * 
@@ -55,7 +55,7 @@ function ajoutersiege($siege)
     function affichersiege7()
     {
         $db = config::getConnexion();
-            $sql="SELECT *FROM siege order by NumAllee  DESC LIMIT 0,12 ";
+            $sql="SELECT *FROM siege order by class  DESC LIMIT 0,12 ";
 
         try{
         $req=$db->prepare($sql);
